@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyForm from './MyForm';
 import Counter from './Counter';
+import Component1 from './Component1';
+import ClsComponentLifeCycle from './ClsComponentLifeCycle';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Counter/>
+   <ClsComponentLifeCycle/>
   </React.StrictMode>
 );
 
